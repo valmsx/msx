@@ -20,8 +20,8 @@
         },
         {
             "title": "Video 3",
-            "playerLabel": "Video 3",
-            "action": "video:http://msx.benzac.de/media/video3.mp4"
+            "playerLabel": "TV room",
+            "action": "video:http://192.168.1.31:44232"
         }
     ]
 }
