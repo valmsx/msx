@@ -36,11 +36,6 @@
         },
         {
             "icon": "view-stream",
-            "label": "First List",
-            "data": "https://benzac-de.github.io/msx/data/extended/list0.json"
-        },
-        {
-            "icon": "view-stream",
             "label": "Second List",
             "data": "https://benzac-de.github.io/msx/data/extended/list1.json"
         },
