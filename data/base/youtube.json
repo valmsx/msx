@@ -30,7 +30,7 @@
             "title": "DaveLegenda Svalbard",
             "playerLabel": "DaveLegenda Svalbard",
             "image": "https://img.youtube.com/vi/kQ60hj82Hlg/hqdefault.jpg",
-            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=kQ60hj82Hlg&cc_lang_pref=IT"
+            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=kQ60hj82Hlg"
         },
         {
             "title": "TV Benchmark Tests",
