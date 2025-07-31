@@ -24,7 +24,7 @@
             "title": "MRSS Launcher",
             "playerLabel": "MRSS Launcher",
             "image": "https://img.youtube.com/vi/tOAAg3h1_U8/hqdefault.jpg",
-            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=tOAAg3h1_U8"
+            "action": "audio:plugin:http://msx.benzac.de/plugins/youtube.html?id=tOAAg3h1_U8"
         },
         {
             "title": "DaveLegenda Svalbard",
