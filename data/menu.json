@@ -30,7 +30,7 @@
             "label": "YouTube",
             "data": "https://valmsx.github.io/msx/data/base/youtube.json"
         },
-{
+        {
             "type": "separator",
             "label": "Extended - Lists"
         },
