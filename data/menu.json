@@ -4,7 +4,7 @@
         {
             "icon": "info",
             "label": "Welcome",
-            "data": "https://benzac-de.github.io/msx/data/welcome.json"
+            "data": "https://valmsx.github.io/msx/data/welcome.json"
         },
         {
             "type": "separator",
@@ -13,22 +13,22 @@
         {
             "icon": "movie",
             "label": "Videos",
-            "data": "https://benzac-de.github.io/msx/data/base/videos.json"
+            "data": "https://valmsx.github.io/msx/data/base/videos.json"
         },
         {
             "icon": "music-note",
             "label": "Audios",
-            "data": "https://benzac-de.github.io/msx/data/base/audios.json"
+            "data": "https://valmsx.github.io/msx/data/base/audios.json"
         },
         {
             "icon": "image",
             "label": "Images",
-            "data": "https://benzac-de.github.io/msx/data/base/images.json"
+            "data": "https://valmsx.github.io/msx/data/base/images.json"
         },
         {
             "icon": "smart-display",
             "label": "YouTube",
-            "data": "https://benzac-de.github.io/msx/data/base/youtube.json"
+            "data": "https://valmsx.github.io/msx/data/base/youtube.json"
         },
         {
             "type": "separator",
