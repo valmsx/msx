@@ -3,17 +3,6 @@
   "type": "menu",
   "items": [
     {
-      "title": "🔍 Cerca su YouTube (plugin)",
-      "type": "app",
-      "type": "link",
-      "url": "https://valmsx.github.io/msx/youtube.html"
-    },
-    {
-      "title": "🔥 Tendenze",
-      "type": "youtube",
-      "search": "tendenze"
-    },
-    {
       "title": "🔍 Cerca 'Linux'",
       "type": "list",
       "url": "https://youtube-flask-proxy.onrender.com/msx?q=linux"
