@@ -6,11 +6,6 @@
       "title": "🔍 Test Statico",
       "type": "list",
       "url": "https://valmsx.github.io/msx/data/test.json"
-    },
-    {
-      "title": "🔍 Ricerca dinamica",
-      "type": "list",
-      "url": "https://youtube-flask-proxy.onrender.com/msx?q=linux"
     }
-  ]
+          ]
 }
