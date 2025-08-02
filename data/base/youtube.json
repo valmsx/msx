@@ -27,10 +27,10 @@
             "action": "audio:plugin:http://msx.benzac.de/plugins/youtube.html?id=tOAAg3h1_U8"
         },
         {
-            "title": "DaveLegenda Svalbard",
-            "playerLabel": "DaveLegenda Svalbard",
-            "image": "https://img.youtube.com/vi/kQ60hj82Hlg/hqdefault.jpg",
-            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=hevBbqhld3Y"
+            "title": "YouTube video",
+            "playerLabel": "YouTube",
+            "image": "https://img.youtube.com/vi/Rk_FqNIegQ4/hqdefault.jpg",
+            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=Rk_FqNIegQ4"
         },
         {
             "title": "TV Benchmark Tests",
