@@ -1,7 +1,12 @@
 {
   "headline": "YouTube Search",
-  "type": "pages",
-  "template": { ... },
+  "type": "search",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,3,3",
+    "color": "black",
+    "imageFiller": "cover"
+  },
   "items": [
     {
       "title": "🔍 Cerca YouTube",
