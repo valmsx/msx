@@ -12,7 +12,7 @@
       "title": "Search YouTube",
       "playerLabel": "Search for YouTube videos",
       "image": "https://img.icons8.com/color/480/youtube-play.png",
-      "action": "plugin:https://valmsx.github.io/msx/search.html?input=%input%"
+      "action": "plugin:https://benzac.github.io/msx-demos/search.html?input=%input%"    
     }
   ]
 }
