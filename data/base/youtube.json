@@ -1,11 +1,5 @@
 {
   "title": "YouTube",
-  "type": "menu",
-  "items": [
-    {
-      "title": "🔍 Cerca 'Linux'",
-      "type": "list",
-      "url": "https://youtube-flask-proxy.onrender.com/msx?q=linux"
-    }
-  ]
+  "type": "list",
+  "url": "https://youtube-flask-proxy.onrender.com/msx?q=linux"
 }
