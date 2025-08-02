@@ -1,5 +1,6 @@
 {
-  "headline": "YouTube",
+  "headline": "YouTube Search",
+  "type": "search",
   "template": {
     "type": "separate",
     "layout": "0,0,3,3",
@@ -9,10 +10,9 @@
   "items": [
     {
       "title": "Search YouTube",
-      "playerLabel": "Search YouTube Videos",
+      "playerLabel": "Search for YouTube videos",
       "image": "https://img.icons8.com/color/480/youtube-play.png",
       "action": "search:https://youtube-flask-proxy.onrender.com/msx_search?input=%input%"
     }
-  ],
-  "type": "pages"
+  ]
 }
