@@ -4,6 +4,7 @@
   "items": [
     {
       "title": "🔍 Cerca su YouTube (plugin)",
+      "type": "app",
       "type": "link",
       "url": "https://valmsx.github.io/msx/youtube.html"
     },
