@@ -6,6 +6,11 @@
       "title": "🔍 Cerca 'Linux'",
       "type": "list",
       "url": "https://youtube-flask-proxy.onrender.com/msx?q=linux"
+    },
+    {
+      "title": "🔍 Cerca video (plugin YouTube standalone)",
+      "type": "link",
+      "url": "https://tuo-github-username.github.io/msx/youtube.html"
     }
   ]
 }
