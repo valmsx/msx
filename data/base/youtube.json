@@ -13,5 +13,10 @@
       "type": "youtube",
       "search": "tendenze"
     }
+    {
+      "title": "🔍 Cerca 'Linux'",
+      "type": "list",
+      "url": "https://youtube-flask-proxy.onrender.com/msx?q=linux"
+    }
   ]
 }
