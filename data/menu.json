@@ -33,7 +33,7 @@
         {
             "icon": "search",
             "label": "YouTube Search",
-            "data": "search:https://youtube-flask-proxy.onrender.com/msx_search?input=%input%"
+            "data": "search:https://youtube-flask-proxy.onrender.com/msx_search?input=bulls"
         },
         {
             "type": "separator",
