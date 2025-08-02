@@ -1,0 +1,11 @@
+{
+  "title": "Test Static",
+  "type": "list",
+  "items": [
+    {
+      "title": "Video statico",
+      "playerLabel": "Video statico",
+      "image": "https://img.youtube.com/vi/61CFhMvAbFU/hqdefault.jpg"
+    }
+  ]
+}
