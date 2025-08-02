@@ -12,7 +12,7 @@
       "title": "Search YouTube",
       "playerLabel": "Search for YouTube videos",
       "image": "https://img.icons8.com/color/480/youtube-play.png",
-      "action": "interaction:https://youtube-flask-proxy.onrender.com/msx_search?input=%input%@https://msx.benzac.de/interaction/input.html"
+      "action": "interaction:https://youtube-flask-proxy.onrender.com/msx_search@https://msx.benzac.de/interaction/input.html"
     }
   ]
 }
