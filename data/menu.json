@@ -21,11 +21,6 @@
             "data": "https://valmsx.github.io/msx/data/base/audios.json"
         },
         {
-            "icon": "YT proof",
-            "label": "YTP",
-            "data": "https://valmsx.github.io/msx/youtube.html"
-        },
-        {
             "icon": "image",
             "label": "Images",
             "data": "https://valmsx.github.io/msx/data/base/images.json"
