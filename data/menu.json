@@ -27,12 +27,12 @@
         },
         {
             "icon": "smart-display",
-            "label": "YouTube",
-            "data": "https://valmsx.github.io/msx/data/base/youtube.json"
+            "label": "YouTube Search API",
+            "data": "https://valmsx.github.io/msx/data/base/youtube-scrap.json"
         },
         {
             "icon": "search",
-            "label": "YouTube Search",
+            "label": "YouTube Scrap",
             "data": "search:https://youtube-flask-proxy.onrender.com/msx_search?input=bulls"
         },
         {
