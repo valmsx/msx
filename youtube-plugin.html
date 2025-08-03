@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>YouTube Search for MSX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://msx.benzac.de/js/tvx-plugin.min.js"></script>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 10px;
+    }
+    .header {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .card {
+      background: #222;
+      border-radius: 6px;
+      padding: 5px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 4px;
+    }
+    .card-title {
+      font-size: 0.9em;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">YouTube MSX Plugin</div>
+  <div id="content">Caricamento...</div>
+
+  <script>
+    tvx.plugin.init().then(() => {
+      const params = tvx.plugin.params || {};
+      const query = params.input || "retro gaming";
+      const page = parseInt(params.page || "1");
+      const endpoint = `https://youtube-msx-scraper.onrender.com/msx_search?input=${encodeURIComponent(query)}&page=${page}`;
+
+      fetch(endpoint)
+        .then(res => res.json())
+        .then(data => {
+          const items = data.items || [];
+
+          // Aggiungi pulsante Pagina precedente, se applicabile
+          if (page > 1) {
+            items.unshift({
+              title: "◀ Pagina precedente",
+              playerLabel: "Pagina precedente",
+              image: "https://img.icons8.com/ios-filled/100/ffffff/left.png",
+              action: `plugin:${tvx.plugin.url}?input=${encodeURIComponent(query)}&page=${page - 1}`
+            });
+          }
+
+          // Aggiungi pulsante Pagina successiva, se presente nei dati
+          if (data.has_next_page) {
+            items.push({
+              title: "▶ Pagina successiva",
+              playerLabel: "Pagina successiva",
+              image: "https://img.icons8.com/ios-filled/100/ffffff/right.png",
+              action: `plugin:${tvx.plugin.url}?input=${encodeURIComponent(query)}&page=${page + 1}`
+            });
+          }
+
+          // Rendi i dati con MSX API
+          tvx.plugin.render({
+            type: "pages",
+            headline: `Risultati per "${query}"`,
+            template: {
+              type: "separate",
+              layout: "0,0,3,3"
+            },
+            items: items
+          });
+        })
+        .catch(err => {
+          tvx.plugin.render({
+            type: "pages",
+            headline: "Errore",
+            template: {
+              type: "separate",
+              layout: "0,0,3,3"
+            },
+            items: [{
+              title: "Errore di rete",
+              playerLabel: err.message,
+              image: "",
+              action: `text:${err.message}`
+            }]
+          });
+        });
+    });
+  </script>
+</body>
+</html>
