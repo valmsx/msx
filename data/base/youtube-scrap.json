@@ -9,7 +9,7 @@
       "title": "🔍 Cerca YouTube",
       "playerLabel": "Inserisci parole chiave",
       "image": "https://img.icons8.com/color/480/youtube-play.png",
-      "action": "content:request:interaction:https://TUO_DOMINIO/msx_search?input={INPUT}|search|it|Cerca su YouTube@http://msx.benzac.de/interaction/input.html"
+      "action": "content:request:interaction:https://youtube-msx-scraper.onrender.com/msx_search?input={INPUT}|search|it|Cerca su YouTube@http://msx.benzac.de/interaction/input.html"
     }
   ]
 }
