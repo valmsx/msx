@@ -28,12 +28,12 @@
         {
             "icon": "smart-display",
             "label": "YouTube Search API",
-            "data": "https://valmsx.github.io/msx/data/base/youtube-scrap.json"
+            "data": "https://valmsx.github.io/msx/data/base/youtube.json"
         },
         {
             "icon": "search",
             "label": "YouTube Scrap",
-            "data": "search:https://youtube-flask-proxy.onrender.com/msx_search?input=bulls"
+            "data": "https://valmsx.github.io/msx/data/base/youtube-scrap.json"
         },
         {
             "type": "separator",
