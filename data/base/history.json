@@ -13,5 +13,6 @@
       "playerLabel": "Cronologia",
       "image": "https://img.icons8.com/fluency/480/time-machine.png",
       "action": "content:request:interaction:init@https://youtube-msx-scraper.onrender.com/history@https://youtube-plugin-flask.onrender.com/static/page.html"
-  ]
+    }
+   ]
 }
