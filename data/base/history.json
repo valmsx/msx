@@ -12,7 +12,7 @@
       "title": "Visualizza Cronologia",
       "playerLabel": "Cronologia",
       "image": "https://img.icons8.com/fluency/480/time-machine.png",
-      "action": "content:request:https://youtube-plugin-flask.onrender.com/history"
+            "action": "content:request:interaction:https://https://youtube-msx-scraper.onrender.com/history@https://valmsx.github.io/msx/interaction/page.html"
     }
   ]
 }
