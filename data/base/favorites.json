@@ -12,7 +12,7 @@
       "title": "Visualizza Preferiti",
       "playerLabel": "Preferiti",
       "image": "https://img.icons8.com/fluency/480/star.png",
-      "action": "content:request:interaction:init@https://youtube-msx-scraper.onrender.com/favorites@https://youtube-msx-scraper.onrender.com/static/page.html"
+      "action": "content:request:interaction:init?data=https://youtube-msx-scraper.onrender.com/favorites@https://youtube-msx-scraper.onrender.com/static/page.html"
     }    
   ]
 }
