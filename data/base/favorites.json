@@ -1,4 +1,18 @@
 {
-  "type": "redirect",
-  "target": "https://youtube-plugin-flask.onrender.com/favorites"
+  "headline": "YouTube – Preferiti",
+  "type": "pages",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,3,3",
+    "color": "black",
+    "imageFiller": "cover"
+  },
+  "items": [
+    {
+      "title": "Visualizza Preferiti",
+      "playerLabel": "Preferiti",
+      "image": "https://img.icons8.com/fluency/480/star.png",
+      "action": "content:request:https://youtube-plugin-flask.onrender.com/favorites"
+    }
+  ]
 }
