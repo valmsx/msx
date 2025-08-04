@@ -41,6 +41,16 @@
             "data": "https://valmsx.github.io/msx/data/base/youtube-scrap.json"
         },
         {
+              "icon": "history",
+              "label": "YT Cronologia",
+              "data": "https://valmsx.github.io/msx/data/base/history.json"
+        },
+        {
+              "icon": "star",
+              "label": "YT Preferiti",
+              "data": "https://valmsx.github.io/msx/data/base/favorites.json"
+        },
+        {
             "type": "separator",
             "label": ""
         }
