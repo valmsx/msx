@@ -1,0 +1,30 @@
+{
+  "type": "page",
+  "headline": "YouTube Plugin",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,3,3",
+    "color": "black",
+    "imageFiller": "cover"
+  },
+  "items": [
+    {
+      "title": "Cerca video",
+      "playerLabel": "Cerca video",
+      "image": "https://via.placeholder.com/320x180.png?text=Search",
+      "action": "input:msx_search"
+    },
+    {
+      "title": "Preferiti",
+      "playerLabel": "Preferiti",
+      "image": "https://via.placeholder.com/320x180.png?text=Favorites",
+      "action": "content:https://youtube-plugin-flask.onrender.com/favorites"
+    },
+    {
+      "title": "Cronologia",
+      "playerLabel": "Cronologia",
+      "image": "https://via.placeholder.com/320x180.png?text=History",
+      "action": "content:https://youtube-plugin-flask.onrender.com/history"
+    }
+  ]
+}
