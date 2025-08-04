@@ -1,0 +1,18 @@
+{
+  "id": "com.valmsx.youtube-plugin",
+  "version": "1.0.0",
+  "name": "YouTube Scraper",
+  "description": "Visualizza i tuoi video preferiti da YouTube",
+  "entry": "favorites.json",
+  "permissions": [
+    "https://youtube-msx-scraper.onrender.com/*",
+    "interaction"
+  ],
+  "actions": {
+    "youtube:play": {
+      "type": "video",
+      "player": "youtube",
+      "source": "payload.videoId"
+    }
+  }
+}
