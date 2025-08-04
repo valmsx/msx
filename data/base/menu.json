@@ -1,0 +1,14 @@
+{
+  "headline": "Menu",
+  "type": "pages",
+  "contents": [
+    {
+      "title": "YouTube",
+      "image": "https://img.icons8.com/color/96/youtube-play.png",
+      "action": "content:load:plugin",
+      "payload": {
+        "id": "com.valmsx.youtube-plugin"
+      }
+    }
+  ]
+}
