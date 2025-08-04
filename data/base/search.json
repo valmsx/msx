@@ -1,0 +1,18 @@
+{
+  "headline": "YouTube Search",
+  "type": "pages",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,3,3",
+    "color": "black",
+    "imageFiller": "cover"
+  },
+  "items": [
+    {
+      "title": "🔍 Cerca video",
+      "playerLabel": "Inserisci parole chiave",
+      "image": "https://img.icons8.com/color/480/youtube-play.png",
+      "action": "content:request:interaction:https://youtube-plugin-flask.onrender.com/msx_search?input={INPUT}|search|it|Cerca su YouTube@http://msx.benzac.de/interaction/input.html"
+    }
+  ]
+}
