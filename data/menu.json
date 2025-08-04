@@ -27,6 +27,10 @@
         },
         {
             "icon": "smart-display",
+            "label": "YouTube Prova",
+            "data": "https://valmsx.github.io/msx/data/base/provaYT.json"
+        {
+            "icon": "smart-display",
             "label": "YouTube Search API",
             "data": "https://valmsx.github.io/msx/data/base/youtube.json"
         },
