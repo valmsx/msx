@@ -1,0 +1,15 @@
+{
+  "headline": "YouTube",
+  "type": "pages",
+  "contents": [
+    {
+      "title": "Preferiti",
+      "image": "https://img.icons8.com/fluency/96/star.png",
+      "action": "content:load",
+      "payload": {
+        "type": "fetch",
+        "url": "https://youtube-msx-scraper.onrender.com/favorites"
+      }
+    }
+  ]
+}
