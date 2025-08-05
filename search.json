@@ -1,0 +1,11 @@
+{
+  "type": "pages",
+  "headline": "YouTube Search",
+  "contents": [
+    {
+      "type": "search",
+      "placeholder": "Cerca video...",
+      "action": "youtube:search"
+    }
+  ]
+}
