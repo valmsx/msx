@@ -1,18 +1,16 @@
-{
-  "id": "com.valmsx.youtube-plugin",
-  "version": "1.0.0",
-  "name": "YouTube Scraper",
-  "description": "Visualizza i tuoi video preferiti da YouTube",
-  "entry": "favorites.json",
-  "permissions": [
-    "https://youtube-msx-scraper.onrender.com/*",
-    "interaction"
-  ],
-  "actions": {
-    "youtube:play": {
-      "type": "video",
-      "player": "youtube",
-      "source": "payload.videoId"
+"actions": {
+  "youtube:search": {
+    "type": "keyboard",
+    "title": "Cerca su YouTube",
+    "action": "content:load",
+    "payload": {
+      "type": "fetch",
+      "url": "/msx_search?input={input}"
     }
+  },
+  "youtube:play": {
+    "type": "video",
+    "player": "youtube",
+    "source": "payload.videoId"
   }
 }
