@@ -27,6 +27,11 @@
         },
         {
             "icon": "smart-display",
+            "label": "YouTube List",
+            "data": "https://valmsx.github.io/msx/data/base/YTlist.json"
+        },   
+        {
+            "icon": "smart-display",
             "label": "YouTube Prova",
             "data": "https://valmsx.github.io/msx/data/base/provaYT.json"
         },   
