@@ -1,0 +1,36 @@
+{
+    "type": "pages",
+    "headline": "YouTube",
+    "template": {
+        "type": "separate",
+        "layout": "0,0,3,3",
+        "color": "black",
+        "imageFiller": "cover"
+    },
+    "items": [
+        {
+            "title": "story1",
+            "playerLabel": "story1",
+            "image": "https://img.youtube.com/vi/V1ykAGI84d0/hqdefault.jpg",
+            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=V1ykAGI84d0"
+        },
+        {
+            "title": "story2",
+            "playerLabel": "story2",
+            "image": "https://img.youtube.com/vi/JBmkBXbsMzQ/hqdefault.jpg",
+            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=JBmkBXbsMzQ"
+        },
+        {
+            "title": "story3",
+            "playerLabel": "story3",
+            "image": "https://img.youtube.com/vi/y4XNggXLpTg/hqdefault.jpg",
+            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=y4XNggXLpTg"
+        },
+        {
+            "title": "story4",
+            "playerLabel": "story4",
+            "image": "https://img.youtube.com/vi/Xd41daYkrIs/hqdefault.jpg",
+            "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=Xd41daYkrIs"
+        }
+    ]
+}
